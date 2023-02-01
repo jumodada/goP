@@ -13,6 +13,23 @@ if(m := re.match('body:(.*)', desc)):
 
 
 
+
 age = 1+ 1
 
+name : bool = True
+
+x: bytes = b"test"
+
 print(age)
+
+from typing import List,Set,Dict,Tuple
+
+xx : List[str] = ['1']
+
+xx.append('1')
+
+dict1 : Dict[int, int] = {1: 1}
+
+tuple1 : Tuple[int, ...] = (1,2,3)
+
+print(len(tuple1))
