@@ -1,5 +1,2 @@
-for index, value in enumerate("helloWorl森  森"):
+for index, value in enumerate("helloWorld"):
     print(index, value)
-
-
-
