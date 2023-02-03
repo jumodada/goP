@@ -23,5 +23,13 @@ func main() {
 		grade = "W"
 	}
 
+	name := "Tom"
+	switch name {
+	case "Tim":
+		grade = "A"
+	case "Gai", "Tom":
+		grade = "W"
+	}
+
 	fmt.Printf(grade)
 }
