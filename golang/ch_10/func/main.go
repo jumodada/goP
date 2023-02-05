@@ -10,5 +10,7 @@ func add(params ...int) (sum int) {
 }
 
 func main() {
+	slice := []int{1, 2, 3, 4}
 	fmt.Println(add(1, 2, 3, 4, 5))
+	fmt.Println(add(slice...))
 }
