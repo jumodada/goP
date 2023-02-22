@@ -20,4 +20,5 @@ class AddHandler(BaseHTTPRequestHandler):
 
 if __name__ == '__main__':
     server = HTTPServer(host, AddHandler)
+    print('start server')
     server.serve_forever()
