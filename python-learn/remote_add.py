@@ -13,9 +13,10 @@ class AddHandler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header("content-type", "application/json")
         self.end_headers()
-        self.wfile.send(json.load({
+        self.wfile.write(json.dumps({
             'result': a + b
         }).encode('utf-8'))
+
 
 
 if __name__ == '__main__':
