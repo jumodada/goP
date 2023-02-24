@@ -3,7 +3,7 @@ import logging
 
 import grpc
 
-from grpc_hello.proto import helloworld_pb2
+from . grpc_hello.proto import helloworld_pb2
 from grpc_hello.proto import helloworld_pb2_grpc
 
 
